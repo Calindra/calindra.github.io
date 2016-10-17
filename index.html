@@ -1,12 +1,14 @@
-
-
-<html xmlns:mailto="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
+    <meta charset="utf-8">
     <title>Calindra</title>
-    <link rel="icon" type="image/png" href="https://calindra.com.br/assets/logoCalindra.ico">
-    <link rel="stylesheet" href="https://calindra.com.br/assets/calindra.css"/>
+    <meta name="description" content="Calindra | Desenvolvimento de sistemas">
+    <meta name="author" content="Calindra">
+    <link rel="icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/calindra.css"/>
 </head>
-
 <body>
     <video autoplay muted>
         <source src="//s3.amazonaws.com/calindra/calindraBackground.mp4" type="video/mp4">
@@ -16,7 +18,6 @@
         <nav class="main-nav">
             <ul>
                 <li><a href="#institucional">Institucional</a></li>
-                
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -26,12 +27,9 @@
             <h2 id="institucional">Um pouco sobre nós</h2>
             <p>A Calindra acredita que toda empresa, independente da atividade, é uma empresa de software. Nosso propósito é ajudar no alcance de suas metas para alcançarmos as conquistas desejadas, nosso foco é sempre no <b>cliente</b>.</p>
             <p>Somos uma empresa que nasceu em meio a efervência de novas metodologias e paradigmas, os quais somados a tecnologias de ponta e um time qualificado nos capacitam a encarar novos e maiores desafios.</p>
-            <p></p>
         </div>
         <div class="container">
             <h2 id="contato">Contato</h2>
-            
-            
             <form class="home-form" action="/enviar-mensagem-calindra" method="post">
                 <label for="contactName">Nome</label>
                 <input type="text" id="contactName" name="contactName"/>
@@ -50,6 +48,9 @@
             <h3>@2010 | Calindra - Todos os direitos reservados</h3>
         </div>
     </footer>
-    <script type="text/javascript" src="https://calindra.com.br/assets/calindra.js" ></script>
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/calindra.js" ></script>
 </body>
 </html>
