@@ -1,0 +1,55 @@
+
+
+<html xmlns:mailto="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calindra</title>
+    <link rel="icon" type="image/png" href="https://calindra.com.br/assets/logoCalindra.ico">
+    <link rel="stylesheet" href="https://calindra.com.br/assets/calindra.css"/>
+</head>
+
+<body>
+    <video autoplay muted>
+        <source src="//s3.amazonaws.com/calindra/calindraBackground.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <h1 class="brand"><span>Calindra</span></h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#institucional">Institucional</a></li>
+                
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="container">
+            <h2 id="institucional">Um pouco sobre nós</h2>
+            <p>A Calindra acredita que toda empresa, independente da atividade, é uma empresa de software. Nosso propósito é ajudar no alcance de suas metas para alcançarmos as conquistas desejadas, nosso foco é sempre no <b>cliente</b>.</p>
+            <p>Somos uma empresa que nasceu em meio a efervência de novas metodologias e paradigmas, os quais somados a tecnologias de ponta e um time qualificado nos capacitam a encarar novos e maiores desafios.</p>
+            <p></p>
+        </div>
+        <div class="container">
+            <h2 id="contato">Contato</h2>
+            
+            
+            <form class="home-form" action="/enviar-mensagem-calindra" method="post">
+                <label for="contactName">Nome</label>
+                <input type="text" id="contactName" name="contactName"/>
+                <label for="contactEmail">Email</label>
+                <input type="email" id="contactEmail"  name="contactEmail"/>
+                <label for="contactMessage">Mensagem</label>
+                <textarea name="contactMessage" id="contactMessage" cols="30" rows="6"></textarea>
+                <div>
+                    <input type="submit" id="btn-send" value="Enviar" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <h3>@2010 | Calindra - Todos os direitos reservados</h3>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://calindra.com.br/assets/calindra.js" ></script>
+</body>
+</html>
