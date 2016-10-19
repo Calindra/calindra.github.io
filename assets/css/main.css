@@ -1,0 +1,101 @@
+/*
+main                #5aa02c
+secondary:          #022b3a
+tertiary:           #1f7a8c
+background:         #fff
+text:               #0a122a
+*/
+
+.calindra {
+    text-align: center;
+    background-color: #fff;
+    color: #0a122a;
+}
+
+.calindra a,
+.calindra a:link,
+.calindra a:visited,
+.calindra a:hover,
+.calindra a:active {
+    color: inherit;
+}
+
+.calindra-logo {
+
+}
+
+.calindra-logo:after {
+    content: '';
+    display: block;
+    width: 100%;
+    min-height: 240px;
+    max-width: 320px;
+    margin: 0 auto;
+    background: transparent url('../images/logo_optimised.svg') center center no-repeat;
+    background-size: 320px 240px;
+}
+
+.calindra-logo span {
+    display: none;
+}
+
+.section,
+.footer {
+    padding: 2em 0;
+}
+
+.hero {
+
+}
+
+.intro {
+    background-color: #022b3a;
+    color: #fff;
+}
+
+.born {
+    text-align: justify;
+}
+
+.quote {
+    background-color: #1f7a8c;
+    color: #fff;
+}
+
+.quote blockquote {
+    font-size: 2em;
+    line-height: 2.5em;
+    border-left: 10px solid rgba(255, 255, 255, .7);
+}
+
+.spirit {
+
+}
+
+.ofertalha {
+    background-color: #e20038;
+    color: #fff;
+}
+
+.ofertalha .img-ofertalha {
+    width: 100%;
+    margin: 1em auto;
+}
+
+footer {
+    padding: 1rem 0;
+    background: #022b3a;
+    color: #fff;
+}
+
+@media (min-width: 760px) {
+    .calindra {
+        text-align: left;
+    }
+
+    .calindra-logo:after {
+        min-height: 480px;
+        max-width: 640px;
+        background-size: 640px 480px;
+    }
+}
