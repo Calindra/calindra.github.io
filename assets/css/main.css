@@ -27,6 +27,10 @@ text:               #0a122a
 
 }
 
+img.responsive {
+    width: 100%;
+}
+
 .calindra-logo:after {
     content: '';
     display: block;
@@ -52,7 +56,8 @@ text:               #0a122a
 }
 
 .hero {
-    background: #fff url('../images/hero_bg3.svg') -50px center fixed;
+    background: #fff url('../images/hero_bg3.svg') 0 -50px fixed;
+
     background-size: 800px 600px;
 }
 
