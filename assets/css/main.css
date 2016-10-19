@@ -5,11 +5,14 @@ tertiary:           #1f7a8c
 background:         #fff
 text:               #0a122a
 */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 
 .calindra {
     text-align: center;
     background-color: #fff;
     color: #0a122a;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 
 .calindra a,
@@ -39,13 +42,18 @@ text:               #0a122a
     display: none;
 }
 
+.lead {
+    font-size: 120%;
+}
+
 .section,
 .footer {
     padding: 2em 0;
 }
 
 .hero {
-
+    background: #fff url('../images/hero_bg3.svg') -50px center fixed;
+    background-size: 800px 600px;
 }
 
 .intro {
@@ -89,8 +97,19 @@ footer {
 }
 
 @media (min-width: 760px) {
+
+    :root {
+        font-size: 80%;
+    }
+
     .calindra {
         text-align: left;
+    }
+
+    .hero {
+        text-align: center;
+        background-size: 1920px 1080px;
+        padding-bottom: 4rem;
     }
 
     .calindra-logo:after {
