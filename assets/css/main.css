@@ -101,6 +101,12 @@ footer {
     color: #fff;
 }
 
+form input,
+form select,
+form textarea {
+    color: #0a122a
+}
+
 @media (min-width: 760px) {
 
     :root {
