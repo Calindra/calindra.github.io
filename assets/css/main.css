@@ -101,10 +101,27 @@ footer {
     color: #fff;
 }
 
+.freepik {
+    font-size: 80%;
+    color: #555 !important;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
 form input,
 form select,
 form textarea {
-    color: #0a122a
+    color: #0a122a;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form input[type=submit] {
+    border: none;
+    background-color: #050915;
+    color: #fff;
 }
 
 @media (min-width: 760px) {
