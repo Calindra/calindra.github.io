@@ -196,5 +196,7 @@ $('canvas').constellation({
         color: 'rgba(0, 255, 0, .5)'
     },
     radius: 250,
-    velocity:.5
+    velocity:.5,
+    width: window.innerWidth < 800? window.innerWidth*5 : window.innerWidth,
+    heigth: window.innerHeight < 800? window.innerHeight*5 : window.innerHeight,
 });
