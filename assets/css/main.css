@@ -5,13 +5,17 @@ tertiary:           #1f7a8c
 background:         #fff
 text:               #0a122a
 */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+:root{
+    font-size: 14px;
+}
 
 .calindra {
     text-align: center;
     background-color: #fff;
     color: #0a122a;
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Josefin Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
 
@@ -40,6 +44,7 @@ img.responsive {
     margin: 0 auto;
     background: transparent url('../images/logo_optimised.svg') center center no-repeat;
     background-size: 320px 240px;
+    z-index:300;
 }
 
 .calindra-logo span {
@@ -50,15 +55,41 @@ img.responsive {
     font-size: 120%;
 }
 
+.title{
+    text-align: center;
+}
+
+h2.title{
+    font-size:170%;
+}
+
+h3.title{
+    font-size:130%;
+}
+
 .section,
 .footer {
     padding: 2em 0;
 }
 
 .hero {
-    background: #fff url('../images/hero_bg3.svg') 0 -50px fixed;
+    overflow: hidden;
+    background: #073e52;
+    background: -moz-linear-gradient(top,  #000 0%, #073e52 100%);
+    background: -webkit-linear-gradient(top,  #000 0%,#073e52 100%);
+    background: linear-gradient(to bottom,  #000 0%,#073e52 100%);
+    position: relative;
+    z-index:50;
+    color:#fff;
+}
 
-    background-size: 800px 600px;
+.hero canvas{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:100;
 }
 
 .intro {
@@ -85,15 +116,22 @@ img.responsive {
 
 }
 
-.ofertalha {
-    background-color: #e20038;
-    color: #fff;
+.client {
+    background-color: #c9d6e2;
+
 }
 
-.ofertalha .img-ofertalha {
+.client .img-client {
     width: 100%;
     margin: 1em auto;
 }
+
+.client .box-client{
+    margin:8px;
+    background-color: #fff;
+    padding:10px;
+}
+
 
 footer {
     padding: 1rem 0;
