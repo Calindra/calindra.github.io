@@ -45,6 +45,7 @@ img.responsive {
     background: transparent url('../images/logo_optimised.svg') center center no-repeat;
     background-size: 320px 240px;
     z-index:300;
+    position: relative;
 }
 
 .calindra-logo span {
