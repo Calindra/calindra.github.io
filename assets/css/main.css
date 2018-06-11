@@ -5,18 +5,27 @@ tertiary:           #1f7a8c
 background:         #fff
 text:               #0a122a
 */
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 
-:root{
+:root {
     font-size: 14px;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 .calindra {
     text-align: center;
-    background-color: #fff;
-    color: #0a122a;
-    font-family: 'Josefin Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    color: #eee;
+    background: #000 url(../images/aurora.jpg) top center no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .calindra a,
@@ -44,7 +53,7 @@ img.responsive {
     margin: 0 auto;
     background: transparent url('../images/logo_optimised.svg') center center no-repeat;
     background-size: 320px 240px;
-    z-index:300;
+    z-index: 300;
     position: relative;
 }
 
@@ -56,16 +65,16 @@ img.responsive {
     font-size: 120%;
 }
 
-.title{
+.title {
     text-align: center;
 }
 
-h2.title{
-    font-size:170%;
+h2.title {
+    font-size: 170%;
 }
 
-h3.title{
-    font-size:130%;
+h3.title {
+    font-size: 130%;
 }
 
 .section,
@@ -74,32 +83,27 @@ h3.title{
 }
 
 .hero {
-    overflow: hidden;
-    background: #073e52;
-    background: -moz-linear-gradient(top,  #000 0%, #073e52 100%);
-    background: -webkit-linear-gradient(top,  #000 0%,#073e52 100%);
-    background: linear-gradient(to bottom,  #000 0%,#073e52 100%);
     position: relative;
-    z-index:50;
-    color:#fff;
+    z-index: 50;
+    color: #fff;
 }
 
-.hero canvas{
+.hero canvas {
     position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    z-index:100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
 }
 
 .intro {
-    background-color: #022b3a;
+    /* background-color: #022b3a; */
     color: #fff;
 }
 
 .born {
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .quote {
@@ -118,8 +122,14 @@ h3.title{
 }
 
 .client {
-    background-color: #c9d6e2;
+    background-color: #373837;
+    color: #fff;
+}
 
+.client a{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .client .img-client {
@@ -127,16 +137,26 @@ h3.title{
     margin: 1em auto;
 }
 
-.client .box-client{
-    margin:8px;
-    background-color: #fff;
-    padding:10px;
+.client .box-client {
+    width:100%;
+    color: #fff;
 }
 
+.client h2 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.client-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 footer {
     padding: 1rem 0;
-    background: #022b3a;
+    background: #000000;
     color: #fff;
 }
 
@@ -159,7 +179,7 @@ form textarea {
 
 form input[type=submit] {
     border: none;
-    background-color: #050915;
+    background-color: #353938;
     color: #fff;
 }
 
@@ -184,4 +204,11 @@ form input[type=submit] {
         max-width: 640px;
         background-size: 640px 480px;
     }
+
+    .client .box-client {
+        max-width: 250px;
+        width: 25%;
+        color: #fff;
+    }
+
 }
