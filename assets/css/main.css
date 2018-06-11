@@ -143,7 +143,7 @@ h3.title {
     color: #fff;
 }
 
-.client .title {
+.client .box-client .title {
     display: none;
     font-size: 1.2rem;
     line-height: 1.4rem;
