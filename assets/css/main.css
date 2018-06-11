@@ -12,6 +12,11 @@ text:               #0a122a
     font-size: 14px;
 }
 
+::selection {
+    background: #2e2e2e;
+    color: #eee;
+}
+
 body {
     -webkit-font-smoothing: antialiased;
 }
@@ -126,7 +131,7 @@ h3.title {
     color: #fff;
 }
 
-.client a{
+.client a {
     display: block;
     margin: 0 auto;
     width: 80%;
@@ -138,7 +143,7 @@ h3.title {
 }
 
 .client .box-client {
-    width:100%;
+    width: 100%;
     color: #fff;
 }
 
