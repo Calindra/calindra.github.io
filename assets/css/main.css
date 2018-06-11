@@ -143,8 +143,15 @@ h3.title {
 }
 
 .client .box-client {
-    width: 100%;
+    width: 50%;
     color: #fff;
+}
+
+.client .title {
+    display: none;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: bold;
 }
 
 .client h2 {
