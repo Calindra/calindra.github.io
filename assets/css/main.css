@@ -214,7 +214,7 @@ form input[type=submit] {
     }
 
     .client .box-client {
-        max-width: 250px;
+        max-width: 150px;
         width: 25%;
         color: #fff;
     }
